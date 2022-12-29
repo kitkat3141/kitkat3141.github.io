@@ -14,7 +14,6 @@
 <body>
 
     <main>
-        <div id="particles-js"></div>
         <!-- Tab links -->
         <header>
             <div class="tab">
@@ -24,54 +23,57 @@
             </div>
         </header>
         
-        <!-- Tab content -->
-        <div id="Home" class="tabcontent">
-            <h3 id="tabheader">Home</h3>
-            <p>London is the capital city of England.</p>
-            <p>more test text</p>
+        <div id="particles-js">
+            <!-- Tab content -->
+            <div id="Home" class="tabcontent">
+                <h3 id="tabheader">Home</h3>
+                <p>London is the capital city of England.</p>
+                <p>more test text</p>
+            </div>
+            
+            <div id="Projects" class="tabcontent">
+                <section>
+                    <h3 id="tabheader">Projects</h3>
+                    <p>These are some projects I have been working on!</p>
+                </section>
+
+                <section>
+                    <div class="row">
+                        <div class="column" style="text-align: left;">
+                            <h4 style="font-size: 35px;">Sliding Puzzle</h4>
+                            <p>
+                                A simple sliding puzzle game I coded, available on Windows and Android.
+                                <br>The objective of this game is to slide the nuumber tiles in numerical order as quickly as possible.
+                            </p>
+        
+                            <ul>
+                                <li>Smooth tile animations</li>
+                                <li>Timer</li>
+                                <li>Sound effects</li>
+                                <li>Music</li>
+                                <li>Multiple customisable settings</li>
+                            </ul>
+        
+                            <button class="btn"><i class="fa fa-download"></i> Download EXE</button>
+                            <button class="btn"><i class="fa fa-download"></i> Download APK</button>
+                            <!--
+                            <button class="btn"><i class="fa fa-github"></i> Source Code</button>
+                            -->
+                        </div>
+
+                        <div class="column">
+                            <img src="images/SlidingPuzzle.png" alt="Sliding Puzzle Game">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <div id="About" class="tabcontent">
+                <h3 id="tabheader">About</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
         </div>
         
-        <div id="Projects" class="tabcontent">
-            <section>
-                <h3 id="tabheader">Projects</h3>
-                <p>These are some projects I have been working on!</p>
-            </section>
-
-            <section>
-                <div class="row">
-                    <div class="column" style="text-align: left;">
-                        <h4 style="font-size: 35px;">Sliding Puzzle</h4>
-                        <p>
-                            A simple sliding puzzle game I coded, available on Windows and Android.
-                            <br>The objective of this game is to slide the nuumber tiles in numerical order as quickly as possible.
-                        </p>
-    
-                        <ul>
-                            <li>Smooth tile animations</li>
-                            <li>Timer</li>
-                            <li>Sound effects</li>
-                            <li>Music</li>
-                            <li>Multiple customisable settings</li>
-                        </ul>
-    
-                        <button class="btn"><i class="fa fa-download"></i> Download EXE</button>
-                        <button class="btn"><i class="fa fa-download"></i> Download APK</button>
-                        <!--
-                        <button class="btn"><i class="fa fa-github"></i> Source Code</button>
-                        -->
-                    </div>
-
-                    <div class="column">
-                        <img src="images/SlidingPuzzle.png" alt="Sliding Puzzle Game">
-                    </div>
-                </div>
-            </section>
-        </div>
-        
-        <div id="About" class="tabcontent">
-            <h3 id="tabheader">About</h3>
-            <p>Tokyo is the capital of Japan.</p>
-        </div>
     </main>
 
     <script src="particles/particles.js"></script>
