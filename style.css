@@ -5,10 +5,17 @@
 body, html{
     height: 100%;
     margin: 0;
+    font-size: 1.5vw;
     font-family: Pangolin;
     color: white;
     background: darkslategray;
     background-image: rgb(63, 62, 62);
+}
+
+button {
+    width: 20vw;
+    height: 10vh;
+    font-size: 1.5vw;
 }
 
 section{
