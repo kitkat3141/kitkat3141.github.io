@@ -5,7 +5,7 @@
 body, html{
     height: 100%;
     margin: 0;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-family: Pangolin;
     color: white;
     background: #2f4f4f;
@@ -40,8 +40,8 @@ section{
     background-color: DodgerBlue;
     border: none;
     color: white;
-    padding: 1vx 3vx;
     cursor: pointer;
+    font-size: 2.2vw;
   }
   
   /* Darker background on mouse-over */
@@ -109,4 +109,16 @@ section{
 
 canvas {
     display: block;
+}
+
+a:link {
+    color: rgb(26, 241, 26);
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
 }
